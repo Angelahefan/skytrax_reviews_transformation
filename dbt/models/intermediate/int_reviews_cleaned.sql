@@ -7,6 +7,7 @@
 -- Grain: one row per review submission
 -- All business logic and nullability handling centralized here
 -- airline_name cleaned via clean_airline_name() macro
+-- learning note: this model cleans raw reviews before they hit marts
 
 with source_data as (
 
