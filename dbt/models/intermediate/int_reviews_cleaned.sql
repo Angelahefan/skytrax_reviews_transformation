@@ -44,6 +44,7 @@ cleaned as (
         value_for_money,
         recommended,
         review as review_text,
+        length(review) as review_length,
         updated_at,
     from source_data
 
