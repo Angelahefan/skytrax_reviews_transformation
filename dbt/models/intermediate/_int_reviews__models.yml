@@ -76,7 +76,9 @@ models:
       - name: inflight_entertainment
         description: Rating for inflight entertainment (1-5 scale).
       - name: ground_service
-        description: Rating for ground service (1-5 scale).
+        description: Rating for ground servi
+        
+        ce (1-5 scale).
       - name: wifi_and_connectivity
         description: Rating for wifi and connectivity (1-5 scale).
       - name: value_for_money
