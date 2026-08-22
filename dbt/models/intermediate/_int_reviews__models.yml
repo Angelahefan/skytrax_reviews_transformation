@@ -85,5 +85,7 @@ models:
         description: Whether the customer recommends the airline.
       - name: review_text
         description: Full text of the review.
+      - name: review_length
+        description: Length of the review text in characters.
       - name: updated_at
         description: Timestamp when the record was last updated in the source system.
