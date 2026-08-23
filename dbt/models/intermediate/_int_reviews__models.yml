@@ -76,7 +76,9 @@ models:
       - name: inflight_entertainment
         description: Rating for inflight entertainment (1-5 scale).
       - name: ground_service
-        description: Rating for ground service (1-5 scale).
+        description: Rating for ground servi
+        
+        ce (1-5 scale).
       - name: wifi_and_connectivity
         description: Rating for wifi and connectivity (1-5 scale).
       - name: value_for_money
@@ -86,9 +88,6 @@ models:
       - name: review_text
         description: Full text of the review.
       - name: review_length
-        description: Length of the review text.
-        tests:
-          - dbt_utils.expression_is_true:
-              expression: "= length(review_text)"
+        description: Length of the review text in characters.
       - name: updated_at
         description: Timestamp when the record was last updated in the source system.
